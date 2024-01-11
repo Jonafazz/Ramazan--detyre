@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #43766C;
+
+}
+
+table {
+    border: 1px solid black;
+    background-color: #f0e4c9;
+    width: 90%;
+    height: 90%;
+
+}
+
+thead {
+    background-color: #b2a297;
+    height: 43px;
+}
+
+tr {
+    height: 40px;
+
+}
+
+tr:nth-child(even) {
+    background-color: #DED0B6;
+
+}
